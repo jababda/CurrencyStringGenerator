@@ -1,0 +1,6 @@
+.vs/
+NumberStringGenerator.UnitTests/bin/Debug/netcoreapp2.2/NumberStringGenerator.dll
+NumberStringGenerator.UnitTests/bin/
+NumberStringGenerator.UnitTests/obj/
+NumberStringGenerator/bin/
+NumberStringGenerator/obj/

@@ -1,0 +1,11 @@
+﻿I religiously practice SOLID and TDD where possible, so I rejected any solution that could not be easily unit tested and didn’t use DI.
+This led me to split the major components of this project into their own subsystems.
+-Input
+-Number Parsing
+(Here I made the decision to return an object that essentially represents a numbers metadata for ease of parsing and testing)
+-English languauge number to word mapping
+-Currency String generation
+
+I unit tested all these subsystems thoroughly given the wide variety of inputs and expected outputs.
+A full test plan seemed grossly unnecessary given that unit tests covered a huge varity of inputs.
+Given that most of these were dependant on the mapping between numbers and words I incorporated the mapping tests within the test cases for the other unit tests using a varierty of test cases.
